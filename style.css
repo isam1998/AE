@@ -7,14 +7,16 @@ body{
 
 
    .navbar {font-weight: bold;height: 39px;z-index: 2;opacity: 0.6;direction: rtl;color: red;}
+   
 .collapse{background-color: white;height: 33px;}
 
 
 .carousel img {z-index: 1;opacity: 0.5;height: 530px;  }
+.carousel-caption{bottom: 140px;}
 .dropdown-menu:hover{background-color: #b2ebf2;}
 
 .card-img-top {height: 200px;}
-.card{height: 370px; margin:3px;border-radius:50%; }
+.card{height: 370px; margin:3px; }
 .card a{color: #001326;font-weight: bold;border: none;}
 .card p,h5{color: white;}
 .card-body{background-color:#001326; }
@@ -23,4 +25,10 @@ background-size: cover;
 height: 560px;color: white;font-weight: bold;}
 .jumbotron p{font-weight: bold;}
 .cv{text-align: center;color: white;}
-.end{background-color:#555;text-align: center;font-weight: bold;color:  f6f5f5;opacity: 0.8;}
+.end{background-color:#555;text-align: center;font-weight: bold;color:  #f6f5f5;opacity: 0.8;}
+.om{width: 60%;text-align: center;margin: auto}
+.om i{font-size: 40px;color: #94ebcd;margin: 50px;
+transition: .4s ease-in-out ;
+
+}
+.om i:hover{font-size: 28px;color:blue;}
